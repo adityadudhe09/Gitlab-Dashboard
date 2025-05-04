@@ -5,3 +5,6 @@ sudo apt install npm
 
 # Run the Application
 npm run dev
+
+# Install Bootstrap
+npm install bootstrap

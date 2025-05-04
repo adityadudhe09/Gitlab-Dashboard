@@ -1,0 +1,83 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Light background */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* max width for larger screens */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column;
+  }
+  .container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust card and table layout for smaller screens */
+  .table {
+    font-size: 14px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust text size for very small screens */
+  h2 {
+    font-size: 18px;
+  }
+  .card-title, .card-text {
+    font-size: 14px;
+  }
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+}
