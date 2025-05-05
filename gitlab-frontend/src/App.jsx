@@ -39,10 +39,10 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link" href="https://gitlab.com/dashboard" target='_blank'>Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Projects</a>
+                <a className="nav-link" href="https://gitlab.com/dashboard/projects/personal" target='_blank'>Projects</a>
               </li>
             </ul>
           </div>
